@@ -1,11 +1,11 @@
-#  Project Title " GitHub Issue Analyzer using LLM " 
+# Project Title " GitHub Issue Analyzer using LLM " 
 
-## Description
-    A Node.js application that fetches GitHub issues, stores them locally, and analyzes them using an LLM.
+# Description
+    git add .A Node.js application that fetches GitHub issues, stores them locally, and analyzes them using an LLM.
 
 # How to Run the Server
 
-    git clone https://github.com/your-username/your-repo-name.git
+    git clone https://github.com/suganyaneena/GitHub-Issue-Analyzer-using-LLM.git
     cd your-repo-name
 
 # Install dependencies
@@ -58,7 +58,7 @@
 
     Fix OpenAI authentication error in Node.js
 
-    How to structure Express routes cleanly
+    Create an  structure node js Express routes cleanly Express.js route that fetches GitHub issues using the GitHub REST API.
 
     How to cache API responses using filesystem
 
