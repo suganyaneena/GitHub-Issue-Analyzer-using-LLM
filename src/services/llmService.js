@@ -32,7 +32,7 @@ export async function analyzeIssues(prompt, issues)
     const results = [];
 
     // ✅ LIMIT TO 5 ISSUES ONLY
-    for (let issue of issues.slice(0, 5)) {
+    // for (let issue of issues.slice(0, 5)) {
       const response = await openai.responses.create({
         model: "gpt-4.1-mini",
         input: `
@@ -46,7 +46,7 @@ export async function analyzeIssues(prompt, issues)
         issueId: issue.id,
         analysis: response.output_text
       });
-    }
+    //}
 
     return results;
   }
